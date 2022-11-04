@@ -25,10 +25,10 @@ public class Test01_GET {
 	
 	@Test	
 	void test_02() {
-		given()
-			.get(request)
-		.then()
-			.statusCode(200)
-			.body("data.id[0]", equalTo(7));
+		given().
+			get(request).
+		then().
+			statusCode(200).
+			body("data.id[0]", equalTo(7));
 	}
 }
