@@ -16,7 +16,7 @@ public class Examples {
 	static String baseUrl = "http://localhost:3000/";
 
 
-//	@Test
+	@Test
 	public void test_get() {
 		baseURI = baseUrl;
 		given().
@@ -88,7 +88,7 @@ public class Examples {
 			log().all();
 	}
 	
-	@Test
+//	@Test
 	public void test_detele() {
 		baseURI = baseUrl;
 		given().
