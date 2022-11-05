@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import io.restassured.http.ContentType;
 
-public class Examples {
+public class ExamplesOnLocalAPI {
 	
 	static String baseUrl = "http://localhost:3000/";
 
